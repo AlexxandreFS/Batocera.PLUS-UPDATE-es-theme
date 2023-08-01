@@ -354,18 +354,51 @@ Année de sortie : ${system.releaseYear}</text>
 	    <include name="cheevos" displayName="Retroachievements ID">./main/usernames/cheevos.xml</include>
 	    <include name="netplay" displayName="Netplay ID">./main/usernames/netplay.xml</include>
             <include name="no" displayName="${no}"/>
-	</subset>  
+	</subset>
 
-	<!--AVATARES-->
-	    <subset name="system-avatar" displayName="${theme.Avatar}" extra="true, static">
-	    <include name="custom" displayName="${custom}">./main/avatars/custom.xml</include>
-	    <include name="aguia" displayName="Aguia">./main/avatars/aguia.xml</include>
-	    <include name="caveira" displayName="Caveira">./main/avatars/caveira.xml</include>
-	    <include name="fantasma" displayName="Fantasma">./main/avatars/fantasma.xml</include>
-	    <include name="garra" displayName="Garra">./main/avatars/garra.xml</include>
-	    <include name="piguin" displayName="Pinguin">./main/avatars/pinguin.xml</include>
-	    <include name="urso" displayName="Urso">./main/avatars/urso.xml</include>
-            <include name="no" displayName="${no}"/>
+  <!--AVATARES-->
+<subset name="system-avatar" displayName="${theme.Avatar}" extra="true, static">
+	<include name="custom" displayName="${custom}">./main/avatars/custom.xml</include>
+	<include name="1-Up" displayName="1-Up">./main/avatars/1-Up.xml</include>
+	<include name="mario" displayName="Mario Bros.">./main/avatars/mario.xml</include> 
+	<include name="mario racoon" displayName="Mario Racoon.">./main/avatars/racoon.xml</include>
+	<include name="goomba" displayName="Goomba">./main/avatars/goomba.xml</include>
+	<include name="donkey" displayName="Donkey Kong">./main/avatars/donkey.xml</include> 
+	<include name="baron von blubba" displayName="Baron Von Blubba">./main/avatars/baron von blubba.xml</include>
+	<include name="Bubble Bobble" displayName="Bubble Bobble">./main/avatars/bubble.xml</include>
+	<include name="ghostgoblins" displayName="Arthur (Ghost 'n Goblins)">./main/avatars/ghostgoblins.xml</include>
+	<include name="megaman" displayName="Mega-Man">./main/avatars/megaman.xml</include>
+	<include name="proto" displayName="Proto-Man">./main/avatars/proto.xml</include>
+	<include name="roll" displayName="Roll">./main/avatars/roll.xml</include>
+	<include name="rush" displayName="Rush">./main/avatars/rush.xml</include>
+	<include name="bass" displayName="Bass">./main/avatars/bass.xml</include>
+	<include name="treble" displayName="Treble">./main/avatars/treble.xml</include>
+	<include name="metalslug" displayName="Metal Slug">./main/avatars/metalslug.xml</include>
+	<include name="monkeyisland" displayName="Monkey Island">./main/avatars/monkeyisland.xml</include>
+	<include name="ninja gaiden" displayName="Ryu Hayabusa (Ninja Gaiden)">./main/avatars/ninja gaiden.xml</include>
+	<include name="zelda" displayName="Link (Zelda)">./main/avatars/zelda.xml</include>
+	<include name="samus" displayName="Samus">./main/avatars/samus.xml</include>
+	<include name="samus armor" displayName="Samus Armor">./main/avatars/samus armor.xml</include>
+	<include name="metroid" displayName="Metroid">./main/avatars/metroid.xml</include>
+	<include name="pacman" displayName="Pac-Man">./main/avatars/pacman.xml</include>
+	<include name="pacman-clyde" displayName="Pac-Man Clyde">./main/avatars/pacman-clyde.xml</include>
+	<include name="pacman-Inky" displayName="Pac-Man Inky">./main/avatars/pacman-inky.xml</include>
+	<include name="pacman-blinky" displayName="Pac-Man Blinky">./main/avatars/pacman-blinky.xml</include>
+	<include name="pacman-pinky" displayName="Pac-Man Pinky">./main/avatars/pacman-pinky.xml</include>
+	<include name="sonic" displayName="Sonic">./main/avatars/sonic.xml</include>
+	<include name="tails" displayName="Tails">./main/avatars/tails.xml</include>
+	<include name="wonderboy" displayName="Wonderboy">./main/avatars/wonderboy.xml</include>
+	<include name="fighter" displayName="Fighter">./main/avatars/fighter.xml</include>
+	<include name="black mage" displayName="Black Mage">./main/avatars/black mage.xml</include>
+	<include name="white mage" displayName="White Mage">./main/avatars/white mage.xml</include>
+	<include name="red mage" displayName="Red Mage">./main/avatars/red mage.xml</include>
+	<include name="thief" displayName="Thief">./main/avatars/thief.xml</include>
+	<include name="monk" displayName="Monk">./main/avatars/monk.xml</include>
+	<include name="alucard" displayName="Alucard">./main/avatars/alucard.xml</include>
+	<include name="maria" displayName="Maria Renard">./main/avatars/maria.xml</include>
+	<include name="richter" displayName="Richter Belmont">./main/avatars/richter.xml</include>
+	<include name="dracula" displayName="Dracula">./main/avatars/dracula.xml</include>
+        <include name="no" displayName="${no}"/>
 	</subset>  
 
   <view name="screen">
